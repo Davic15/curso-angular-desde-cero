@@ -1,0 +1,16 @@
+<h1>Webapps con Angular 2+</h1>
+
+<h3>{{ title }}</h3>
+<hr />
+<nav>
+  <a [routerLink]="['/home']" [routerLinkActive]="['activado']">Home</a> -
+  <a [routerLink]="['/fruta']" [routerLinkActive]="['activado']">Fruta</a> -
+  <a [routerLink]="['/empleado']" [routerLinkActive]="['activado']">Empleado</a>
+  -
+  <a [routerLink]="['/contacto']" [routerLinkActive]="['activado']">Contacto</a>
+</nav>
+<hr />
+<!-- <fruta></fruta> -->
+<!-- <hr /> -->
+<!-- <empleado></empleado> -->
+<router-outlet></router-outlet>

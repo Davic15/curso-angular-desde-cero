@@ -1,0 +1,15 @@
+h3 {
+  font-size: 20px;
+}
+
+.bordeAzul {
+  border: 5px solid blue;
+}
+
+.fondoAzul {
+  background-color: lightblue;
+}
+
+.fondoVerde {
+  background-color: lightgreen;
+}
