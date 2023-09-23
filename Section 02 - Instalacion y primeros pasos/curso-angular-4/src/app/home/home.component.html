@@ -1,4 +1,11 @@
 <h2>{{ title }}</h2>
+<br />
+<p>{{ fecha | date : "fullDate" | uppercase | lowercase }}</p>
+<p>{{ fecha | date : "dd/MM/yyyy" }}</p>
+<p>{{ nombre | lowercase }}</p>
+
+<p>{{ 5 | conversor : 7 }}</p>
+
 <hr />
 
 <input type="text" [(ngModel)]="prenda_a_guardar" />

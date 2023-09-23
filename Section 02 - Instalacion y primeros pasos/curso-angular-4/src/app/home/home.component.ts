@@ -11,10 +11,13 @@ export class HomeComponent {
   title = 'Pagina Principal';
   public listado_ropa: Array<string>;
   public prenda_a_guardar: string;
+  public fecha;
+  public nombre = 'MarIa InES AveLLan';
 
   constructor(private _ropaService: RopaService) {
     this.listado_ropa = [];
     this.prenda_a_guardar = '';
+    this.fecha = new Date(2023, 9, 23);
   }
 
   ngOnInit() {
