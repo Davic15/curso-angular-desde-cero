@@ -1,3 +1,11 @@
+<h4>Componentes hijos en Angular</h4>
+
+<hijo
+  [propiedad_uno]="dato_externo"
+  [texto]="identity.web"
+  (desde_el_hijo)="recibirDatos($event)"
+></hijo>
+
 <h2>{{ titulo }}</h2>
 
 <div *ngIf="administrador; then admin; else noAdmin"></div>
